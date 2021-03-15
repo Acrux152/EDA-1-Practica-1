@@ -17,7 +17,7 @@ int main(){
     }
 
     printf("\nDireccion de memoria del primer elemento del arreglo: %p\n", &arr[0]);
-    printf("Direccion de memoria de la variable de tipo arreglo arr: %p\n", arr);
+    printf("Direccion de memoria de la variable de tipo arreglo arr: %p\n", &arr);
 
     system("pause");
     return 0;
