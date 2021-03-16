@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*Equipo 9. Código escrito por Novak Okcham González*/
-
+/*13 de marzo de 2021*/
 int main(){
     char a[3][3];
     int i, j;
