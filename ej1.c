@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*Equipo 9. Código escrito por Novak Okcham González*/
-
+/*Codigo escrito el 4 de marzo de 2021*/
 int main(){
     char arr[10];
 	
