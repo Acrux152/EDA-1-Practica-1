@@ -15,9 +15,9 @@ int main(){
         }
     }
 
-    for(i=0; i<3; i++){        
-        for(j=0; j<3; j++){            /*Ciclo para pedirle los datos al usuario*/
-            printf("Valor almacenado en %i %i: %c\nDirecci%cn de memoria: %p\n", i, j,  a[i][j], 162, &a[i][j]);            /*Importante para que guarde bien los caracteres*/
+    for(i=0; i<3; i++){        /*imprime el valor almacenado y su direccion de memoria*/
+        for(j=0; j<3; j++){
+            printf("Valor almacenado en %i %i: %c\nDirecci%cn de memoria: %p\n", i, j,  a[i][j], 162, &a[i][j]);
         }
     }
 
