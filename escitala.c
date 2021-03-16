@@ -49,18 +49,19 @@ void crearMensaje(){
 
     for (i=0 ; i<ren ; i++){
         for (j=0 ; j<col ; j++){
-        escitala[i][j] = texto[k++];
+            escitala[i][j] = texto[k++];
         }
     }
 
     printf("El texto en la tira queda de la siguiente manera:\n");
     for (i=0 ; i<col ; i++){
         for (j=0 ; j<ren ; j++){
-        printf("%c", escitala[j][i]);
+            printf("%c", escitala[j][i]);
         }
-    printf("\n");
+        printf("\n");
     }
 }
+
 void descifrarMensaje(){
     int ren, col, i, j, k=0;
     printf("Ingresar el tamaño de la escítala:\n");
@@ -77,7 +78,7 @@ void descifrarMensaje(){
 
     for (i=0 ; i<col ; i++){
         for (j=0 ; j<ren ; j++){
-        escitala[j][i] = texto[k++];
+            escitala[j][i] = texto[k++];
         }
     }
 
