@@ -15,11 +15,19 @@ int main(){
         }
     }
 
-    for(i=0; i<3; i++){        /*imprime el valor almacenado y su direccion de memoria*/
+    printf("\nDirecciones de memoria de la matriz 3x3:\n");
+    for(i=0; i<3; i++){    
+        printf("|\t");    
         for(j=0; j<3; j++){
-            printf("Valor almacenado en %i %i: %c\nDirecci%cn de memoria: %p\n", i, j,  a[i][j], 162, &a[i][j]);
+            printf("%p\t|\t", &a[i][j]);
         }
+        printf("\n");
     }
+
+    printf("\n");
+    for(i=0; i<3; i++){        
+            printf("Direcci%cn de memoria del rengl%cn %d: %p\n", 162, 162, i, &a[i][0]);
+    }   
 
     printf("\nDireccion de memoria del primer elemento del arreglo: %p\n", &a[0][0]);
     printf("Direccion de memoria de la variable de tipo arreglo arr: %p\n", &a);
